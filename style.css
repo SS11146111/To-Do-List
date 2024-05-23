@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.containerTitle{
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 1px gray;
+    text-decoration: underline wavy white; 
+    background-color: rgb(36, 35, 35);
+    min-width: 400px;
+
+}
+
+.icon{
+    margin: 15px;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    background-color: rgb(36, 35, 35);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    min-width: 400px;
+}
+
+.textarea{
+    margin: 20px; 
+    padding: 10px;
+}
+
+.buttoninput{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: rgb(83, 238, 83);
+}
+
+.todolist{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    min-width: 400px;
+}
+
+.task{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.task>:nth-child(1){
+    color: white;
+    padding: 20px;
+}
+
+.task>:nth-child(2){
+    color: white;
+    padding: 20px;
+}
+
+.task>:nth-child(3){
+    padding: 20px;
+    border-radius: 10px;
+}
